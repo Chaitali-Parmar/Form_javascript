@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body {
+            background-color: darkgrey;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        form {
+            background-color:rgb(140, 173, 31);
+            color: white;
+            /* border: 2px solid black; */
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 50px;
+            font-size: 20px;
+            line-height: 48px;
+            
+        }
+        .first li{
+            display: inline;
+            border: 1px solid white;
+            padding: 5px;
+            margin-left: 10px;
+        }
+        li:hover{
+            background-color: white;
+            color: black;
+        }
+        h3{
+            text-align: center;
+            text-decoration: dashed;
+        }
+        .second{
+            list-style:armenian;
+            margin-left: 40px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <header>
+    <nav class="first">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</header>
+    <form action="submit.html">
+        <fieldset>
+            <legend>
+                Registration Form
+            </legend>
+            <table>
+                <tr>    
+                    <td>Name :</td>
+                    <td><input type="textbox" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td>Address :</td>
+                    <td><input type="textbox" placeholder="Enter your address"></td>
+                </tr>
+                <tr>
+                    <td>Date of birth :</td>
+                    <td><input type="date" placeholder="Enter your date of birth"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male:<input type="radio" value="male" name="gender">
+                    Female:<input type="radio" value="female" name="gender"></td>
+                </tr>
+                <tr>
+                    <td>Hobby</td>
+                    <td>Dancing<input type="checkbox">
+                    Singing<input type="checkbox">Cooking<input type="checkbox">Reading<input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="textbox" placeholder="Enter your Email"></td>
+                </tr>
+                <tr>
+                    <td>Contact no. :</td>
+                    <td><input type="textbox" placeholder="Enter your no."></td>
+                </tr>
+                <tr>
+                  <td><a target="submit.html"><button type="submit" value="submit">Submit</button>
+                  </a>
+                </td>
+                </tr>
+                    </table>
+                </tr>
+                <td></td>
+                <td></td>
+            </table>
+        </fieldset>
+    </form>
+    <div class="container">
+        <h3>Description</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nihil itaque nesciunt esse consequuntur aspernatur nulla, repellendus architecto molestiae nobis dolores quas in voluptatum delectus maxime, quidem consectetur mollitia facilis ipsam odio cupiditate! Quia vel asperiores assumenda tempora minus, inventore necessitatibus sapiente, debitis odit distinctio sit magnam. Neque exercitationem nulla dolorum aut impedit quasi. Recusandae blanditiis tempore voluptas ratione, provident delectus. Quidem nobis officia accusamus repudiandae, ad autem exercitationem. Doloribus nam incidunt porro suscipit dolores sed voluptatem quod totam dolore ullam adipisci quidem nisi magni aut et, delectus id facilis nulla mollitia molestias cum voluptatum. Neque magni quasi pariatur consequatur!</p>
+    </div>
+<ul class="second">
+    <li>banana</li>
+    <li>cherry</li>
+
+</ul>
+</body>
+
+</html>
